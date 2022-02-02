@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bring Your Own Id</title>
+        <link rel="stylesheet" href="./style.css" >
+        <script src="./id.js"></script>
+        <script>
+          setId("JonDJones");
+        </script>
+
+        <script src="https://cdn.optimizely.com/js/21169710060.js" await></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id="nav"></div>
+        <section class="relative py-4 px-4" >
+            <div class="z-20 relative text-white container mx-auto" id="page">
+              <h1>
+                Why bring your own visitor ID (BYOID)?
+              </h1>
+              <div class="leading-normal">
+                <div class="w-1/3 rounded-lg shadow">
+                    <ul class="divide-y-2 divide-gray-100 black">
+                        <li class="p-3">Have more fine-grained control over your ID persistence strategy (for example, as part of your mitigation of Intelligent Tracking Prevention. See also Intelligent Tracking Prevention and Optimizely).</li>
+                        <li class="p-3">Reduce cookie bloat in the browser by consolidating identifiers.</li>
+                        <li class="p-3">If you use both Optimizely Web and Optimizely Full Stack, you can supply a known ID so you can use the same identifier across both Web and Full Stack.</li>
+                        <li class="p-3">Avoid complicated joins between Optimizely data exports and your own first-party data source.</li>
+                    </ul>
+                </div>
+              </p>
+            </div>
+          </section>
+        <div id="cookie"></div>
+        <script src="./script.js"></script>
+
+    </body>
+</html>
