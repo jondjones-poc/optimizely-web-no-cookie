@@ -8,7 +8,8 @@ This project makes uses of:
 
 ## 👻 Live Site URL & Status 👺
 
-[https://optimizely-web-no-cookie.netlify.app/](https://optimizely-web-no-cookie.netlify.app/)
+- [Website](https://optimizely-web-no-cookie.netlify.app/)
+- [Github](https://github.com/jondjones-poc/optimizely-web-no-cookie)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/09a89504-76bb-4b82-b518-a50e4b97fe57/deploy-status)](https://app.netlify.com/sites/optimizely-web-no-cookie/deploys)
 
